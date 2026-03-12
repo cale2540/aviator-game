@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aviator Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>✈ AVIATOR GAME</h1>
+
+<h2>Points: <span id="points">0</span></h2>
+<h2>Tickets: <span id="tickets">5</span></h2>
+
+<img id="plane" src="https://cdn-icons-png.flaticon.com/512/744/744465.png">
+
+<br><br>
+
+<button onclick="startGame()">Start Game</button>
+<button onclick="watchAd()">Watch Ad</button>
+<button onclick="cashOut()">Cash Out</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
